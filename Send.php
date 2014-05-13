@@ -49,9 +49,7 @@ class Send {
         $mailTo = $this->to;
         $mailSubject = $this->subject;
 
-        $mailSignature = ;
-        $mailSignature .= "Vaš, Format.ba - Primjenjene Vještine.\n";
-        $mailSignature .= "Za više informacija posjetite nas na: http://www.format.ba/\n";
+        $mailSignature = "";
 
         $mailBody = $this->message . "\n";
         $mailBody .= $this->signature;
