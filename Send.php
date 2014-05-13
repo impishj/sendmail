@@ -3,7 +3,7 @@
 class Send {
 
     public $from;
-  public $fromName;
+    public $fromName;
     public $to;
     public $subject;
     public $message;
